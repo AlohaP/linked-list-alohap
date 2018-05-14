@@ -58,7 +58,7 @@ public class SinglyLinkedList<T> {
         if (size == 0){
             tail = null;                                    //if list is empty tail has null value
         }
-        System.out.println("Remove head node with " + answer);
+        System.out.println("Remove head node with " + answer + "element");
         return answer;
     }
 }
